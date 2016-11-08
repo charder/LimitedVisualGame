@@ -34,6 +34,6 @@ public class PlayerController : MonoBehaviour {
 			}
 		} 
 		//move player object based on controller input
-		playerObj.transform.position = new Vector3 (playerObj.transform.position.x + xPos, playerObj.transform.position.y + yPos, playerObj.transform.position.z);
+		playerObj.transform.position = new Vector3 (playerObj.transform.position.x + xPos, playerObj.transform.position.y + yPos, -1);
 	}
 }
