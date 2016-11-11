@@ -38,7 +38,6 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D col) {
-		print(col.gameObject.tag);
 		if (col.gameObject.tag == "Exit") {
 			progressLevel ();
 			currentPitch = 0;
